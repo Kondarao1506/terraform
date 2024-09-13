@@ -1,11 +1,11 @@
 variable "ami_id" {
-  type = "string"
+  type = string
   default = "ami-09c813fb71547fc4f"
   description = "This is the AMI id of devops-practice which is redhat 9"
 }
 
 variable "instance_type" {
-  type = "string"
+  type = string
   default = "t3.micro"
 }
 
