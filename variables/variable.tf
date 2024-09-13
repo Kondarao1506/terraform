@@ -10,7 +10,7 @@ variable "instance_type" {
 }
 
 variable "tags" {
-    type = "map"
+    type = map(string)
     default = {
         Name = "backend"
         Project = "expence"
