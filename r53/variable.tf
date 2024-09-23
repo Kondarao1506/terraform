@@ -54,4 +54,9 @@ variable "instances" {
     type = list(string)
       default = [ "mysql","backend","frontend" ]
     }
-  
+variable "domain_name" {
+  default = "kondarao.online"
+}
+variable "zone_id" {
+  default = "Z02407683B5E3VJB82WZG"
+  }
